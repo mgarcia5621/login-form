@@ -52,4 +52,37 @@ form input[type= "password"] {
 form i {
     position: absolute;
     font-size: 25px;
+    color: grey;
+    margin: 15px 0 0 -45px;
+}
+
+i.fa-lock {
+    margin-top: 35px;
+
+}
+
+form input [type= "submit"] {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 130px;
+    height: 45px;
+    color: white;
+    cursor: pointer;
+    line-height: 45px;
+    border-radius: 45px;
+    border-radius: 5px;
+    background: #5c1769;
+}
+
+form input [type= "submit"]:hover {
+    background: #491254;
+    transition: .5s;
+}
+
+form a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #7f2092;
+    padding: 0 0 0 20px;
+    
 }
